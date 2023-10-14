@@ -5,7 +5,7 @@ const tasc1 = {
 
 console.log(`Number of categories: ${tasc1.categories.childElementCount}`);
 
-tasc1.items.forEach((e)=>{
-    console.log(`Category: ${e.children[0].textContent}`);
-    console.log(`Elements: ${e.children[1].childElementCount}`);
+tasc1.items.forEach((e) => {
+  console.log(`Category: ${e.children[0].textContent}`);
+  console.log(`Elements: ${e.children[1].childElementCount}`);
 });

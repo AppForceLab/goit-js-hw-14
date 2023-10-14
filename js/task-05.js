@@ -1,8 +1,7 @@
-const nameInput = document.getElementById('name-input');
-const nameOutput = document.getElementById('name-output');
+const nameInput = document.getElementById("name-input");
+const nameOutput = document.getElementById("name-output");
 
-
-nameInput.addEventListener('input', () => {
+nameInput.addEventListener("input", () => {
   const inputValue = nameInput.value;
-  nameOutput.textContent = inputValue.trim() || 'Anonymous';
+  nameOutput.textContent = inputValue.trim() || "Anonymous";
 });
